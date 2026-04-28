@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Moje CV</title>
+    <link rel="stylesheet" href="red.css">
+</head>
+<script src="script.js"></script>   
+<body>
+
+<header>
+    <h1>Vladyslav Cholovskyi</h1>
+    <img src="photo.jpg" alt="Moje zdjęcie" width="250">
+    <button class="theme-btn" onclick="changeTheme()">Zmień motyw</button>
+</header>
+
+<main>
+
+        <section>
+            <h2>Kontakt</h2>
+            <p>Email: <a href="mailto:vcholov1@stu.vistula.edu.pl">vcholov1@stu.vistula.edu.pl</a></p>
+            <p>Telefon: <a href="tel:+48575161727">+48 575 161 727</a></p>
+            <p>Miasto: Mikołajów</p>
+
+            <p><a href="https://github.com/75666-Cholovskyi" target="_blank">GitHub</a></p>
+            <p><a href="https://www.linkedin.com/in/vladyslav-cholovskyi-9a35163b9/" target="_blank">LinkedIn</a></p>
+        </section>
+    </div>
+
+        <section>
+            <h2>O mnie</h2>
+            <p>Jestem studentem Uniwersytetu Vistula w Warszawie, na kierunku informatycznym</p>
+            <p>Mam 17 lat i pochodzę z Mikołajowa na Ukrainie. Byłem zawodowym wrestlerem i aktywnie uprawiam koszykówkę.</p>
+            <p>Spędziłem 5 lat w akademii informatycznej...</p>
+        </section>
+
+        <section>
+            <h2>Umiejętności</h2>
+            <ul id="skills-list"></ul>
+        </section>
+
+        <section>
+            <h2>Doświadczenie</h2>
+
+            <article>
+                <h3>Kelner</h3>
+                <p>Hampton, Airport Okęcie, Sheraton Grand</p>
+                <p>2025–2026</p>
+            </article>
+
+            <article>
+                <h3>Kurier</h3>
+                <p>BOLT</p>
+                <p>2025</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Wykształcenie</h2>
+            <p>Akademia Finansów i Biznesu Vistula – Informatyka</p>
+        </section>
+
+        <section id="projekty">
+            <h2>
+                Projekty 
+                <button class="toggle-btn" onclick="toggleProjects()">Ukryj</button>
+            </h2>
+
+            <ul id="projekty-list"></ul>
+        </section>
+
+        <section>
+            <h2>Kontakt ze mną</h2>
+
+            <form id="contactForm">
+                <label>Imię:</label><br>
+                <input type="text" id="name"><br>
+                <small class="error" id="nameError"></small><br>
+
+                <label>Nazwisko:</label><br>
+                <input type="text" id="surname"><br>
+                <small class="error" id="surnameError"></small><br>
+
+                <label>Email:</label><br>
+                <input type="text" id="email"><br>
+                <small class="error" id="emailError"></small><br>
+
+                <label>Wiadomość:</label><br>
+                <textarea id="message"></textarea><br>
+                <small class="error" id="messageError"></small><br><br>
+
+                <button type="submit">Wyślij</button>
+            </form>
+
+            <p id="successMsg"></p>
+        </section>
+    </div>
+
+</main>

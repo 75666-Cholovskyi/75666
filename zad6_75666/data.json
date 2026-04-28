@@ -1,0 +1,10 @@
+{
+  "skills": ["C++", "Python", "C#", "SQL", "Tinkercad"],
+  "projects": [
+    "Strona portfolio",
+    "Gra mafia",
+    "Gra blackjack",
+    "Symulator banku",
+    "Vending machine"
+  ]
+}
